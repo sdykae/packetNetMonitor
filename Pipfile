@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+psutil = "*"
+scapy = "*"
+tk = "*"
+mypy = "*"
+pylint = "*"
+autopep8 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12.2"
